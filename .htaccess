@@ -1,0 +1,11 @@
+SetEnv PHP_VER 5_3
+# PRETTYURLS MOD BEGINS
+# Pretty URLs mod
+# http://code.google.com/p/prettyurls/
+# .htaccess file generated automatically on: October 3, 2013, 9:20
+
+RewriteEngine on
+RewriteBase /
+
+# Rules for: referidos
+RewriteRule ^([a-zA-Z0-9]+)/?$ ./index.php?id=$1 [L,QSA]
